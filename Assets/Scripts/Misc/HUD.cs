@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -7,7 +8,7 @@ public class HUD : MonoBehaviour
 {
     public static HUD m_Instance { get; private set; }
 
-    [SerializeField] private Text m_DistanceText, m_MovementSpeedText, m_CrystalsText;
+    [SerializeField] private TMP_Text m_DistanceText, m_MovementSpeedText, m_CrystalsText;
     private Canvas m_Canvas;
     private int m_CurrentCrystals;
 
